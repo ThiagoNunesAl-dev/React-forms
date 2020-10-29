@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 2.5em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    border-bottom: 1px solid black;
+}
+
+.titulo_nav {
+    width: 10em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lista {
+    width: 15em;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista ul {
+    display: flex;
+}
+
+.lista ul li {
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    padding: 1em;
+}
